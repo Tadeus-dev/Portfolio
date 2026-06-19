@@ -1,3 +1,4 @@
+/*Fontes do Google fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Story+Script&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
@@ -15,6 +16,7 @@ body{
     font-family: 'Source Sans 3', sans-serif;
 }
 
+/*Aplicação do tema dark no body*/
 body.dark-theme{
     background-color:#333333;
     color:aliceblue;
@@ -27,6 +29,7 @@ body.dark-theme{
     height:100%;
 }
 
+/*Definição da div left*/
 #left{
     width:50%;
     height:100%;
@@ -63,15 +66,13 @@ button.theme{
     height: 24px;
 }
 
+/*Definições na div right*/
 #right{
     width:50%;
     height: 100%;
 }
 
-#menu-btn{
-    display:none;
-}
-
+/*Configurações da barra de navegação*/
 nav{
     display:flex;
     justify-content: space-around;
@@ -129,9 +130,6 @@ body.dark-theme .main-content h1{
     padding-bottom: 10px;
 }
 
-#theme-btn img{
-    background-image: url(🌗);
-}
 
 /*Responsividade para telas menores*/
 @media (max-width: 768px) {

@@ -4,20 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio</title>
+    <!--Folha de estilo css, específico para a página-->
     <link rel="stylesheet" href="css/formacao.css">
 </head>
 <body>
+    <!--Container principal da página-->
     <div class="container">
-
         <section id="nav-container">
+            <!--A página possui apenas a barra de navegação e o conteúdo-->
             <nav>
                 <a href="index.html" class="nav-link">Sobre</a>
                 <a href="formacao.html" class="nav-link">Formação</a>
                 <a href="projetos.html" class="nav-link">Projetos</a>
                 <a href="contato.html" class="nav-link">Contato</a>
+                <!--O botão aciona uma função que adiciona a classe dark-theme-->
                 <button id="theme-btn" class="theme" onclick="mudar_tema()"><img src="imagens/contrast_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg" alt="" srcset=""></button>
             </nav>
+            <!--Conteúdo principal da página-->
             <main class="main-content">
+                <!--div "card" apresenta elementos diferentes-->
                 <div class="card">
                     <h2>🧙‍♂️ Formação Acadêmica</h2>
                     <p>UNINTER - Tecnólogo em Análise e Desenvolvimento de Sistemas (ADS) - (2025 - em andamento)</p>
@@ -36,6 +41,7 @@
             </main>
         </section>
     </div>
+    <!--O JavaScript é igual para todas as paginas-->
     <script src="js/script.js"></script>
 </body>
 </html>

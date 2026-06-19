@@ -4,25 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio</title>
+    <!--Folha de estilo css, específico para a página-->
     <link rel="stylesheet" href="css/projetos.css">
 </head>
 <body>
+    <!--Container principal-->
     <div class="container">
+        <!--Section left, a imagem será inserida pelo CSS-->
         <section id="left">
             
         </section>
+        <!--Section right, contém a barra de nagevação e o conteúdo principal-->
         <section id="right">
             <nav>
                 <a href="index.html" class="nav-link">Sobre</a>
                 <a href="formacao.html" class="nav-link">Formação</a>
                 <a href="projetos.html" class="nav-link">Projetos</a>
                 <a href="contato.html" class="nav-link">Contato</a>
+                <!--O botão aciona uma função que adiciona a classe dark-theme-->
                 <button id="theme-btn" class="theme" onclick="mudar_tema()"><img src="imagens/contrast_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg" alt="" srcset=""></button>
             </nav>
+            <!--Conteúdo principal-->
             <main class="main-content">
                 <h2>Projetos</h2>
                 <p>Aqui estão alguns dos meus projetos recentes:</p>
 
+                <!--Container com os cards-->
                 <div id="cards-container">
                     <div class="card">
                         <h3>Projeto 1: Meu portfólio</h3>
@@ -49,6 +56,7 @@
             </main>
         </section>
     </div>
+    <!--O JavaScript é igual para todas as paginas-->
     <script src="js/script.js"></script>
 </body>
 </html>

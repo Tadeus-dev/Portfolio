@@ -4,29 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio</title>
+    <!--Folha de estilo css, específico para a página-->
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <!--Container principal da página-->
     <div class="container">
         <section id="left">
             <div class="logo">Portfólio</div>
         </section>
+        <!--A página inicila foi dividida em duas partes right e left-->
         <section id="right">
+            <!--Barra de navegação com ancoragem-->
             <nav>
                 <a href="index.html" class="nav-link">Sobre</a>
                 <a href="formacao.html" class="nav-link">Formação</a>
                 <a href="projetos.html" class="nav-link">Projetos</a>
                 <a href="contato.html" class="nav-link">Contato</a>
+                <!--Botão para mudar o tema da página-->
                 <div>
+                    <!--O botão aciona uma função que adiciona a classe dark-theme-->
                     <button id="theme-btn" class="theme" onclick="mudar_tema()"><img src="" alt="" srcset=""></button>
                 </div>
             </nav>
+            <!--Conteúdo principal da página-->
             <main class="main-content">
                 <h1>Bem-vindo ao meu Portfólio</h1>
                 <p>Olá, me chamo <strong>Tadeus</strong> e sou apaixonado por tecnologia.</p>
                 <p>Aqui você vai encontrar um resumo dos meus interesses, formação e  projetos. Possuo formação e experiência na área de educação (professor), mas sempre tive curiosidade pelas novas tecnologias.
                 Atualmente, estou cursando Análise e Desenvolvimento de Sistemas (ADS) - UNINTER, buscando unir minha bagagem de comunicação e resolução de problemas com as demandas do desenvolvimento de software.</p><br>
                 <p><strong>Hobbies e interesses</strong></p>
+                <!--Lista não ordenada-->
                 <ul id="list-content">
                     <li>📚 Gosto de ler sobre temas variados;</li>
                     <li>✈️ Adoro viajar e conhecer novas culturas;</li>
@@ -36,6 +44,7 @@
             </main>
         </section>
     </div>
+    <!--O JavaScript é igual para todas as paginas-->
     <script src="js/script.js"></script>
 </body>
 </html>

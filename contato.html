@@ -4,23 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio</title>
+    <!--Folha de estilo css, específico para a página-->
     <link rel="stylesheet" href="css/contato.css">
 </head>
 <body>
+    <!--Container principal-->
     <div class="container">
-
         <section id="nav-container">
+            <!--Barra de navegação-->
             <nav>
                 <a href="index.html" class="nav-link">Sobre</a>
                 <a href="formacao.html" class="nav-link">Formação</a>
                 <a href="projetos.html" class="nav-link">Projetos</a>
                 <a href="contato.html" class="nav-link">Contato</a>
+                <!--O botão aciona uma função que adiciona a classe dark-theme-->
                 <button id="theme-btn" class="theme" onclick="mudar_tema()"><img src="imagens/contrast_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg" alt="" srcset=""></button>
             </nav>
+            <!--Conteúdo principal-->
             <main class="main-content">
                 <h2>Contato</h2>
                 <p>Se você deseja entrar em contato comigo, por favor, preencha o formulário abaixo:</p>
                 <div id="form-container">
+                    <!--Formulário para simular o envio de um contato-->
                     <form action="#" method="POST">
                         <label for="name">Nome:</label>
                         <input type="text" id="name" name="name" required>
@@ -30,13 +35,14 @@
 
                         <label for="message">Mensagem:</label>
                         <textarea id="message" name="message" rows="5" required></textarea>
-
+                        <!--Botão que aciona a função para exibir um alerta-->
                         <button type="submit" onclick="exibirAlerta()">Enviar</button>
                     </form>
                 </div>
             </main>
         </section>
     </div>
+    <!--O JavaScript é igual para todas as paginas-->
     <script src="js/script.js"></script>
 </body>
 </html>

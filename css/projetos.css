@@ -1,3 +1,4 @@
+/*Fontes importadas do Google fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Story+Script&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
@@ -9,12 +10,14 @@
     box-sizing:border-box;
 }
 
+/*Configuração do body*/
 body{
     height:100vh;
     background-color:#e2d7d1;
     font-family: 'Source Sans 3', sans-serif;
 }
 
+/*Tema dark para o body*/
 body.dark-theme{
     background-color:#333333;
     color:aliceblue;
@@ -27,6 +30,7 @@ body.dark-theme{
     height:100%;
 }
 
+/*Configuração da section left*/
 #left{
     width:20%;
     height:100%;
@@ -63,17 +67,20 @@ button.theme{
     height: 24px;
 }
 
+/*Configuração da section right*/
 #right{
     width:80%;
     height: 100%;
 }
 
+/*Barra de navegação*/
 nav{
     display:flex;
     justify-content: space-around;
     padding: 20px;
 }
 
+/*Configuração dos links*/
 .nav-link{
     font-family: 'Source Sans 3', sans-serif;
     text-decoration: none;
@@ -106,9 +113,10 @@ body.dark-theme .nav-link:hover{
     scrollbar-width: none;
 }
 
+/*Configuração do container dos cards*/
 #cards-container{
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap; /*ajusta os cards na sequência da página se não couber*/
     justify-content: space-around;
 }
 
@@ -134,6 +142,7 @@ body.dark-theme .card h3, p{
     font-family: 'Source Sans 3', sans-serif;
 }
 
+/*Configuração geral dos cards*/
 .card{
     background-color: #f9f8f3d0;
     padding: 20px;
