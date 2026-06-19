@@ -102,17 +102,18 @@ body.dark-theme .nav-link:hover{
 
 /*Configurações do conteúdo principal*/
 .main-content{
-    height: 80%;
+    height: 85%;
     width: 80%;
     margin: 0 auto;
     align-content: center;
-
+    overflow-y: scroll;
+    scrollbar-width: none;
 }
 
 .main-content h1{
-    /*font-family: 'Story Script', cursive;*/
     color:#333333;
-    padding-bottom: 20px;
+    font-size: 1.5em;
+    padding-bottom: 10px;
 }
 
 body.dark-theme .main-content h1{
@@ -122,6 +123,14 @@ body.dark-theme .main-content h1{
 .main-content p{
     font-family: 'Source Sans 3', sans-serif;
     text-align: justify;
+}
+
+.main-content #list-content{
+    padding-bottom: 10px;
+}
+
+#theme-btn img{
+    background-image: url(🌗);
 }
 
 /*Responsividade para telas menores*/
